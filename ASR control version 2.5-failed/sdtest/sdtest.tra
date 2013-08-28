@@ -1,0 +1,49 @@
+*** Creating Trace Output File 'sdtest.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"sdcmd.o"'
+### List of Objects: adding '"sdcrc.o"'
+### List of Objects: adding '"sddriver.o"'
+### List of Objects: adding '"sdhal.o"'
+### List of Objects: adding '"msd.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"stm32f10x_adc.o"'
+### List of Objects: adding '"stm32f10x_bkp.o"'
+### List of Objects: adding '"stm32f10x_can.o"'
+### List of Objects: adding '"stm32f10x_dma.o"'
+### List of Objects: adding '"stm32f10x_exti.o"'
+### List of Objects: adding '"stm32f10x_flash.o"'
+### List of Objects: adding '"stm32f10x_gpio.o"'
+### List of Objects: adding '"stm32f10x_i2c.o"'
+### List of Objects: adding '"stm32f10x_iwdg.o"'
+### List of Objects: adding '"stm32f10x_lib.o"'
+### List of Objects: adding '"stm32f10x_nvic.o"'
+### List of Objects: adding '"stm32f10x_pwr.o"'
+### List of Objects: adding '"stm32f10x_rcc.o"'
+### List of Objects: adding '"stm32f10x_rtc.o"'
+### List of Objects: adding '"stm32f10x_spi.o"'
+### List of Objects: adding '"stm32f10x_systick.o"'
+### List of Objects: adding '"stm32f10x_tim1.o"'
+### List of Objects: adding '"stm32f10x_tim.o"'
+### List of Objects: adding '"stm32f10x_usart.o"'
+### List of Objects: adding '"stm32f10x_wwdg.o"'
+### List of Objects: adding '"stm32f10x_it.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"cortexm3_macro.o"'
+### List of Objects: adding '"stm32f10x_vector.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "sdcmd.o" "sdcrc.o" "sddriver.o" "sdhal.o" "msd.o" "uart.o" "stm32f10x_adc.o" "stm32f10x_bkp.o" "stm32f10x_can.o" "stm32f10x_dma.o" "stm32f10x_exti.o" "stm32f10x_flash.o" "stm32f10x_gpio.o" "stm32f10x_i2c.o" "stm32f10x_iwdg.o" "stm32f10x_lib.o" "stm32f10x_nvic.o" "stm32f10x_pwr.o" "stm32f10x_rcc.o" "stm32f10x_rtc.o" "stm32f10x_spi.o" "stm32f10x_systick.o" "stm32f10x_tim1.o" "stm32f10x_tim.o" "stm32f10x_usart.o" "stm32f10x_wwdg.o" "stm32f10x_it.o" "main.o" "cortexm3_macro.o" "stm32f10x_vector.o" 
+--strict --scatter "sdtest.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\sdtest.map" -o sdtest.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'sdtest.axf'
+### ADS-LD Command File: 'sdtest.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'sdtest.lnp', Handle=0x00000258
+### Writing '.lnp' file
+### ADS-LD Command file 'sdtest.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 25 errors
+### Updating obj list
+### LDADS_file() completed.

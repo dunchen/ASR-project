@@ -1,0 +1,5 @@
+--cpu Cortex-M3 ".\obj\stm32f10x_lib.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_spi.o" ".\obj\stm32f10x_usart.o" ".\obj\stm32f10x_flash.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_systick.o" ".\obj\stm32f10x_bkp.o" ".\obj\stm32f10x_rtc.o" ".\obj\stm32f10x_pwr.o" ".\obj\stm32f10x_nvic.o" ".\obj\stm32f10x_it.o" ".\obj\main.o" ".\obj\cortexm3_macro.o" ".\obj\stm32f10x_vector.o" ".\obj\sdcmd.o" ".\obj\sdcrc.o" ".\obj\sddriver.o" ".\obj\sdhal.o" ".\obj\msd.o" 
+--strict --scatter ".\obj\ASR_ground.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\list\ASR_ground.map" -o .\obj\ASR_ground.axf

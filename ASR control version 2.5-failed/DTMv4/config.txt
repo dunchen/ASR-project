@@ -1,0 +1,28 @@
+release
+
+MCU STM32F103T6U6
+
+Temp  PA0 ADC12_IN0
+Force1 PA1 ADC12_IN1
+PWM1 PA15 TIM2_CH1
+
+ 
+BOOT1 = 0
+BOOT0 = 1
+
+debug
+
+MCU STM32F103C8T6
+
+Pressure  PA0 ADC12_IN0
+Force ADS1256 CH1
+PWM1 PA15 TIM2_CH1
+
+ 
+PWM2 PA		
+BOOT1 = 0
+BOOT0 = 1
+
+FAT file system and SD card driver is in
+/Project/User/Lib/fatfs/ 
+Do not change default config unless you meet problem

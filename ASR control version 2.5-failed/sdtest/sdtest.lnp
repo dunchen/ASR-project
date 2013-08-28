@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "sdcmd.o" "sdcrc.o" "sddriver.o" "sdhal.o" "msd.o" "uart.o" "stm32f10x_adc.o" "stm32f10x_bkp.o" "stm32f10x_can.o" "stm32f10x_dma.o" "stm32f10x_exti.o" "stm32f10x_flash.o" "stm32f10x_gpio.o" "stm32f10x_i2c.o" "stm32f10x_iwdg.o" "stm32f10x_lib.o" "stm32f10x_nvic.o" "stm32f10x_pwr.o" "stm32f10x_rcc.o" "stm32f10x_rtc.o" "stm32f10x_spi.o" "stm32f10x_systick.o" "stm32f10x_tim1.o" "stm32f10x_tim.o" "stm32f10x_usart.o" "stm32f10x_wwdg.o" "stm32f10x_it.o" "main.o" "cortexm3_macro.o" "stm32f10x_vector.o" 
+--strict --scatter "sdtest.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\sdtest.map" -o sdtest.axf

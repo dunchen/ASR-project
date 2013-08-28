@@ -1,0 +1,32 @@
+                      ╭═══════════════╮
+                      ║          深圳英蓓特          ║
+        ╭══════┤                              ├══════╮
+        ║            ║   http://www.embedinfo.com   ║            ║
+        ║            ╰═══════════════╯            ║
+        ║                                                          ║
+      　║          欢迎使用由深圳市英蓓特信息技术有限公司为您      ║
+        ║      制作的软件资源。                                    ║
+        ║                                                          ║
+        ║      如果您在使用中有任何问题或意见，欢迎与我们联系！    ║
+        ║                                                          ║  
+        ║      英蓓特联系电话:                                     ║
+        ║      深圳：0755-25504951  25638952                       ║
+        ║      北京：010-59713204-805                              ║
+        ║      上海：021-63089029                                  ║
+        ║      武汉：027-87290817（技术支持）                      ║
+        ║                                                          ║
+        ║      E-mail：                                            ║
+        ║      产品咨询：sales.cn@embedinfo.com                    ║
+        ║      技术支持：support.cn@embedinfo.com                  ║
+        ║                                                          ║
+        ║      英蓓特网站资源：                                    ║
+        ║      产品中心 arm.embedinfo.com/class-shopping.asp       ║
+        ║      下载中心 arm.embedinfo.com/down-class.asp           ║
+        ║      技术文章 arm.embedinfo.com/wen-class.asp            ║
+        ║      FAQ      arm.embedinfo.com/faq                      ║
+        ║      技术论坛 arm.embedinfo.com/bbs                      ║
+        ║                                                          ║  
+        ║    ╭───────────────────────╮    ║
+        ╰══┤       英蓓特—— ARM开发工具专业提供商       ├══╯
+              ╰───────────────────────╯
+

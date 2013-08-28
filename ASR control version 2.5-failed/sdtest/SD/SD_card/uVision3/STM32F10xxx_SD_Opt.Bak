@@ -1,0 +1,78 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (STM32F10x_SD), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(header),0,0,0
+GRPOPT 2,(system),0,0,0
+GRPOPT 3,(library),0,0,0
+GRPOPT 4,(driver),0,0,0
+GRPOPT 5,(sdmmc),1,0,0
+GRPOPT 6,(user),1,0,0
+
+OPTFFF 1,1,5,150994944,0,0,0,0,<..\code\header\config.h><config.h> 
+OPTFFF 2,2,2,0,0,0,0,0,<..\code\system\stm32f10x_startup.s><stm32f10x_startup.s> 
+OPTFFF 2,3,1,167772160,0,0,0,0,<..\code\system\stm32f10x_vector.c><stm32f10x_vector.c> 
+OPTFFF 2,4,1,0,0,0,0,0,<..\code\system\stm32f10x_it.c><stm32f10x_it.c> 
+OPTFFF 2,5,2,0,0,0,0,0,<..\code\system\cortexm3_macro.s><cortexm3_macro.s> 
+OPTFFF 3,6,5,738197504,0,0,0,0,<..\code\library\inc\stm32f10x_conf.h><stm32f10x_conf.h> 
+OPTFFF 3,7,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_adc.c><stm32f10x_adc.c> 
+OPTFFF 3,8,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_bkp.c><stm32f10x_bkp.c> 
+OPTFFF 3,9,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_can.c><stm32f10x_can.c> 
+OPTFFF 3,10,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_dma.c><stm32f10x_dma.c> 
+OPTFFF 3,11,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_exti.c><stm32f10x_exti.c> 
+OPTFFF 3,12,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_flash.c><stm32f10x_flash.c> 
+OPTFFF 3,13,1,0,0,331,336,0,<..\code\library\src\stm32f10x_gpio.c><stm32f10x_gpio.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,44,0,0,0,44,0,0,0,205,3,0,0,18,1,0,0 }
+OPTFFF 3,14,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_i2c.c><stm32f10x_i2c.c> 
+OPTFFF 3,15,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_iwdg.c><stm32f10x_iwdg.c> 
+OPTFFF 3,16,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_lib.c><stm32f10x_lib.c> 
+OPTFFF 3,17,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_nvic.c><stm32f10x_nvic.c> 
+OPTFFF 3,18,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_pwr.c><stm32f10x_pwr.c> 
+OPTFFF 3,19,1,83886080,0,0,0,0,<..\code\library\src\stm32f10x_rcc.c><stm32f10x_rcc.c> 
+OPTFFF 3,20,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_rtc.c><stm32f10x_rtc.c> 
+OPTFFF 3,21,1,0,0,0,0,0,<..\code\library\src\stm32f10x_spi.c><stm32f10x_spi.c> 
+OPTFFF 3,22,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_systick.c><stm32f10x_systick.c> 
+OPTFFF 3,23,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_tim1.c><stm32f10x_tim1.c> 
+OPTFFF 3,24,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_tim.c><stm32f10x_tim.c> 
+OPTFFF 3,25,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_usart.c><stm32f10x_usart.c> 
+OPTFFF 3,26,1,167772160,0,0,0,0,<..\code\library\src\stm32f10x_wwdg.c><stm32f10x_wwdg.c> 
+OPTFFF 4,27,1,738197504,0,42,42,0,<..\code\driver\uart.c><uart.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,110,0,0,0,145,0,0,0,222,3,0,0,0,2,0,0 }
+OPTFFF 4,28,1,0,0,166,178,0,<..\code\driver\msd.c><msd.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,22,0,0,0,29,0,0,0,202,2,0,0,82,1,0,0 }
+OPTFFF 5,29,1,939524096,0,685,685,0,<..\code\driver\sdmmc\sdcmd.c><sdcmd.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,0,0,0,0,0,0,0,0,112,3,0,0,111,1,0,0 }
+OPTFFF 5,30,1,0,0,0,0,0,<..\code\driver\sdmmc\sdcrc.c><sdcrc.c> 
+OPTFFF 5,31,1,0,0,38,45,0,<..\code\driver\sdmmc\sddriver.c><sddriver.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,44,0,0,0,58,0,0,0,223,3,0,0,30,1,0,0 }
+OPTFFF 5,32,1,0,0,148,156,0,<..\code\driver\sdmmc\sdhal.c><sdhal.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,22,0,0,0,29,0,0,0,134,3,0,0,140,1,0,0 }
+OPTFFF 6,33,1,2,0,117,121,0,<..\code\user\main.c><main.c> { 44,0,0,0,2,0,0,0,3,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,22,0,0,0,29,0,0,0,3,3,0,0,82,1,0,0 }
+
+
+TARGOPT 1, (STM32F10x_SD)
+ ADSCLK=8000000
+  OPTTT 1,0,1,0
+  OPTHX 1,65535,0,0,0
+  OPTLX 79,66,8,<..\listing\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTAX 255
+  OPTDL (SARMCM3.DLL)()(DARMSTM.DLL)(-pSTM32F103RB)(SARMCM3.DLL)()(TARMSTM.DLL)(-pSTM32F103RB)
+  OPTDBG 49150,1,()()()()()()()()()() (BIN\UL2CM3.DLL)()()()
+  OPTKEY 0,(DLGTARM)((1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(100=-1,-1,-1,-1,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(180=-1,-1,-1,-1,0)(120=-1,-1,-1,-1,0)(121=-1,-1,-1,-1,0)(122=-1,-1,-1,-1,0)(123=-1,-1,-1,-1,0)(124=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(240=-1,-1,-1,-1,0)(190=-1,-1,-1,-1,0)(200=-1,-1,-1,-1,0)(170=-1,-1,-1,-1,0)(130=-1,-1,-1,-1,0)(131=-1,-1,-1,-1,0)(132=-1,-1,-1,-1,0)(133=-1,-1,-1,-1,0)(160=-1,-1,-1,-1,0)(161=-1,-1,-1,-1,0)(162=-1,-1,-1,-1,0)(210=-1,-1,-1,-1,0)(211=-1,-1,-1,-1,0)(220=-1,-1,-1,-1,0)(221=-1,-1,-1,-1,0)(230=-1,-1,-1,-1,0)(231=-1,-1,-1,-1,0)(232=-1,-1,-1,-1,0)(233=-1,-1,-1,-1,0)(150=-1,-1,-1,-1,0)(151=-1,-1,-1,-1,0))
+  OPTKEY 0,(ARMDBGFLAGS)()
+  OPTKEY 0,(UL2CM3)(-UV0126S9E -O14 -S0 -C0 -N00("ARM CoreSight JTAG-DP") -D00(3BA00477) -L00(4) -N01("Unknown JTAG device") -D01(06410041) -L01(5) -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F10x_128 -FS08000000 -FL020000)
+  OPTBB 0,0,101,1,134223990,0,0,0,0,1,<main.c>()(\main\101)
+  OPTBB 1,0,439,1,134223334,0,0,0,0,1,<sddriver.c>()(\sddriver\439)
+  OPTWA 0,1,(Mass_Block_Size)
+  OPTDF 0x86
+  OPTLE <>
+  OPTLC <>
+EndOpt
+
