@@ -1,0 +1,249 @@
+Dependencies for Project 'myfirstjob', Target 'ASR_Rocket': (DO NOT MODIFY !)
+F (.\library\src\stm32f10x_rcc.c)(0x48D5D9EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\stm32f10x_rcc.o" --omf_browse ".\obj\stm32f10x_rcc.crf" --depend ".\obj\stm32f10x_rcc.d")
+I (.\library\inc\stm32f10x_rcc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+F (.\library\src\stm32f10x_flash.c)(0x48D5D9EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\stm32f10x_flash.o" --omf_browse ".\obj\stm32f10x_flash.crf" --depend ".\obj\stm32f10x_flash.d")
+I (.\library\inc\stm32f10x_flash.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+F (.\library\src\stm32f10x_spi.c)(0x51B047A6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\stm32f10x_spi.o" --omf_browse ".\obj\stm32f10x_spi.crf" --depend ".\obj\stm32f10x_spi.d")
+I (.\library\inc\stm32f10x_spi.h)(0x51B047BB)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rcc.h)(0x48D5D9EA)
+F (.\library\src\stm32f10x_gpio.c)(0x48D5D9EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\stm32f10x_gpio.o" --omf_browse ".\obj\stm32f10x_gpio.crf" --depend ".\obj\stm32f10x_gpio.d")
+I (.\library\inc\stm32f10x_gpio.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rcc.h)(0x48D5D9EA)
+F (.\library\src\stm32f10x_lib.c)(0x48D5D9EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\stm32f10x_lib.o" --omf_browse ".\obj\stm32f10x_lib.crf" --depend ".\obj\stm32f10x_lib.d")
+I (.\library\inc\stm32f10x_lib.h)(0x51AF13E3)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_adc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_bkp.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_can.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_crc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dac.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dbgmcu.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dma.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_exti.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_flash.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_fsmc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_gpio.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_i2c.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_iwdg.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_nvic.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_pwr.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rcc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rtc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_sdio.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_spi.h)(0x51B047BB)
+I (.\library\inc\stm32f10x_systick.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_tim.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_usart.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_wwdg.h)(0x48D5D9EA)
+F (.\library\src\stm32f10x_usart.c)(0x48D5D9EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\stm32f10x_usart.o" --omf_browse ".\obj\stm32f10x_usart.crf" --depend ".\obj\stm32f10x_usart.d")
+I (.\library\inc\stm32f10x_usart.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rcc.h)(0x48D5D9EA)
+F (.\library\src\stm32f10x_systick.c)(0x48D5D9EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\stm32f10x_systick.o" --omf_browse ".\obj\stm32f10x_systick.crf" --depend ".\obj\stm32f10x_systick.d")
+I (.\library\inc\stm32f10x_systick.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+F (.\library\src\stm32f10x_bkp.c)(0x48D5D9EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\stm32f10x_bkp.o" --omf_browse ".\obj\stm32f10x_bkp.crf" --depend ".\obj\stm32f10x_bkp.d")
+I (.\library\inc\stm32f10x_bkp.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rcc.h)(0x48D5D9EA)
+F (.\library\src\stm32f10x_rtc.c)(0x48D5D9EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\stm32f10x_rtc.o" --omf_browse ".\obj\stm32f10x_rtc.crf" --depend ".\obj\stm32f10x_rtc.d")
+I (.\library\inc\stm32f10x_rtc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+F (.\library\src\stm32f10x_nvic.c)(0x48D5D9EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\stm32f10x_nvic.o" --omf_browse ".\obj\stm32f10x_nvic.crf" --depend ".\obj\stm32f10x_nvic.d")
+I (.\library\inc\stm32f10x_nvic.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+F (.\library\src\stm32f10x_pwr.c)(0x48D5D9EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\stm32f10x_pwr.o" --omf_browse ".\obj\stm32f10x_pwr.crf" --depend ".\obj\stm32f10x_pwr.d")
+I (.\library\inc\stm32f10x_pwr.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rcc.h)(0x48D5D9EA)
+F (.\boot\cortexm3_macro.s)(0x48D5D9EC)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x --list ".\list\cortexm3_macro.lst" --xref -o ".\obj\cortexm3_macro.o" --depend ".\obj\cortexm3_macro.d")
+F (.\boot\stm32f10x_vector.s)(0x48D5D9EC)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x --list ".\list\stm32f10x_vector.lst" --xref -o ".\obj\stm32f10x_vector.o" --depend ".\obj\stm32f10x_vector.d")
+F (.\interrupt\stm32f10x_it.c)(0x51B54E04)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\stm32f10x_it.o" --omf_browse ".\obj\stm32f10x_it.crf" --depend ".\obj\stm32f10x_it.d")
+I (interrupt\stm32f10x_it.h)(0x51B54E38)
+I (.\library\inc\stm32f10x_lib.h)(0x51AF13E3)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_adc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_bkp.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_can.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_crc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dac.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dbgmcu.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dma.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_exti.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_flash.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_fsmc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_gpio.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_i2c.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_iwdg.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_nvic.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_pwr.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rcc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rtc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_sdio.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_spi.h)(0x51B047BB)
+I (.\library\inc\stm32f10x_systick.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_tim.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_usart.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_wwdg.h)(0x48D5D9EA)
+F (.\src\main.c)(0x51B5549C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\main.o" --omf_browse ".\obj\main.crf" --depend ".\obj\main.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (.\library\inc\stm32f10x_lib.h)(0x51AF13E3)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_adc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_bkp.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_can.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_crc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dac.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dbgmcu.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dma.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_exti.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_flash.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_fsmc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_gpio.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_i2c.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_iwdg.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_nvic.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_pwr.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rcc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rtc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_sdio.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_spi.h)(0x51B047BB)
+I (.\library\inc\stm32f10x_systick.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_tim.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_usart.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_wwdg.h)(0x48D5D9EA)
+I (.\library\inc\config.h)(0x51B47B58)
+I (C:\Keil\ARM\ARMCC\bin\..\include\ctype.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\setjmp.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\rt_misc.h)(0x4EB0EEA0)
+I (.\library\inc\msd.h)(0x471DAAFE)
+F (.\library\src\sdcmd.c)(0x471D86FC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\sdcmd.o" --omf_browse ".\obj\sdcmd.crf" --depend ".\obj\sdcmd.d")
+I (.\library\inc\sdhal.h)(0x471C5DC6)
+I (.\library\inc\sdconfig.h)(0x471D97B8)
+I (.\library\inc\sdcrc.h)(0x471C5DC6)
+I (.\library\inc\sdcmd.h)(0x471C5B6A)
+I (.\library\inc\sddriver.h)(0x471DA546)
+F (.\library\src\sdcrc.c)(0x471C5C06)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\sdcrc.o" --omf_browse ".\obj\sdcrc.crf" --depend ".\obj\sdcrc.d")
+I (.\library\inc\sdcrc.h)(0x471C5DC6)
+I (.\library\inc\sdconfig.h)(0x471D97B8)
+F (.\library\src\sddriver.c)(0x471DEC72)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\sddriver.o" --omf_browse ".\obj\sddriver.crf" --depend ".\obj\sddriver.d")
+I (.\library\inc\sdhal.h)(0x471C5DC6)
+I (.\library\inc\sdconfig.h)(0x471D97B8)
+I (.\library\inc\sdcmd.h)(0x471C5B6A)
+I (.\library\inc\sddriver.h)(0x471DA546)
+F (.\library\src\sdhal.c)(0x51B47CAA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\sdhal.o" --omf_browse ".\obj\sdhal.crf" --depend ".\obj\sdhal.d")
+I (.\library\inc\config.h)(0x51B47B58)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\ctype.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\setjmp.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\rt_misc.h)(0x4EB0EEA0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (.\library\inc\stm32f10x_lib.h)(0x51AF13E3)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_adc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_bkp.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_can.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_crc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dac.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dbgmcu.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dma.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_exti.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_flash.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_fsmc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_gpio.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_i2c.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_iwdg.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_nvic.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_pwr.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rcc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rtc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_sdio.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_spi.h)(0x51B047BB)
+I (.\library\inc\stm32f10x_systick.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_tim.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_usart.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_wwdg.h)(0x48D5D9EA)
+I (.\library\inc\msd.h)(0x471DAAFE)
+I (.\library\inc\sdhal.h)(0x471C5DC6)
+I (.\library\inc\sdconfig.h)(0x471D97B8)
+F (.\library\src\msd.c)(0x51B47903)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\library\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\obj\msd.o" --omf_browse ".\obj\msd.crf" --depend ".\obj\msd.d")
+I (.\library\inc\msd.h)(0x471DAAFE)
+I (.\library\inc\stm32f10x_lib.h)(0x51AF13E3)
+I (.\library\inc\stm32f10x_map.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_conf.h)(0x51B04595)
+I (.\library\inc\stm32f10x_type.h)(0x48D5D9EA)
+I (.\library\inc\cortexm3_macro.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_adc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_bkp.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_can.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_crc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dac.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dbgmcu.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_dma.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_exti.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_flash.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_fsmc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_gpio.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_i2c.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_iwdg.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_nvic.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_pwr.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rcc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_rtc.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_sdio.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_spi.h)(0x51B047BB)
+I (.\library\inc\stm32f10x_systick.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_tim.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_usart.h)(0x48D5D9EA)
+I (.\library\inc\stm32f10x_wwdg.h)(0x48D5D9EA)
+I (.\library\inc\sddriver.h)(0x471DA546)
+I (.\library\inc\sdconfig.h)(0x471D97B8)

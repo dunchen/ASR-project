@@ -1,1 +1,0 @@
---device DARMSTM -g --apcs=interwork -I "C:\Keil\ARM\INC\ST\STM32F10x" --list ".\Listing\STM32F10x.lst" --xref -o ".\Output\STM32F10x.o" "..\User\STM32F10x.s"

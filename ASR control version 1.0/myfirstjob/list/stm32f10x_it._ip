@@ -1,0 +1,5 @@
+"interrupt\stm32f10x_it.c" -E -c --cpu Cortex-M3 -O0 --apcs=interwork -I.\library\inc 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\list\stm32f10x_it.i"
